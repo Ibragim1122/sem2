@@ -11,9 +11,9 @@ else
     Console.WriteLine("Лучше думай. Число не подходит");
 }
 
- A (x, y);
+
  int x = 2;
- int y = 3;
+ int y = - 3;
 
 if ( x > 0 && y > 0)
 {
@@ -30,4 +30,17 @@ if (x < 0 && y < 0)
 if (x > 0 && y < 0)
 {
     Console.WriteLine("Данная точка в четвертой плокости");
+}
+
+
+int number = 15;
+int firstDigit = number / 10;
+int secondDigit = number % 10;
+if ( firstDigit > secondDigit)
+{
+    Console.WriteLine("Первая цифра больше");
+}
+if (firstDigit < secondDigit)
+{
+    Console.WriteLine("Вторая цифра больше");
 }
